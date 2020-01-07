@@ -63,19 +63,17 @@
 }
 
 
-
-
 .pagefix{
 	margin-top: 1%;
 	text-align: center;
-	font-size: 25px;
+	font-size: 2vw;
 	font-style: bold;
 }
 
 .skill{
 	text-align:center;
 	text-decoration: underline;
-	font-size: 70px;
+	font-size: 6vw;
 	margin-top: 7%;
 }
 
@@ -84,7 +82,7 @@
 	grid-template-columns: 100px 100px;
 	grid-template-rows: 30px 30px 30px 30px;
 	grid-gap: 40px;
-	font-size: 40px;
+	font-size: 3.5vw;
 	align-content: center;
 	justify-content: space-evenly;
 }
@@ -97,7 +95,6 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: space-between;
-	font-size: 30px;
 
 }
 
@@ -106,6 +103,7 @@
 	height:20%;
 	margin-left: 50px;
 	margin-top: 30px;
+
 }
 
 .gridFix3{
@@ -140,13 +138,15 @@
   }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
   .flex-container {
     flex-direction: column;
     align-content: center;
   }
   .fixer{
-  	margin-left: 10%;
+  	margin-left: 15%;
+  	height: 150px;
+	width: 150px;
   }
 }
 
@@ -154,3 +154,15 @@
 	font-size:3vw;
 }
 
+.response2{
+	font-size:9vw;
+}
+
+.link{
+	display: flex;
+	flex-direction: left;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	font-size:2.5vw;
+}
