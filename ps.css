@@ -3,37 +3,6 @@
   background-color:#f2f2f2;
 }
 
-/*
-.cool{
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-  font-size:140px;
-  margin-top: 20px;
-}
-
-.fix1{
-	height: 215px;
-	width: 215px;
-	border: 5px solid black;
-	border-radius: 50%;
-}
-
-.rotate{
-  -webkit-transform:rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg)
-  transform: rotate(270deg);
-}
-
-.flex{
-	display: flex;
-}
-
-.lineup{
-	margin-left:10%;
-	margin-top: 10%;
-}
-*/
 
 .cool{
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
